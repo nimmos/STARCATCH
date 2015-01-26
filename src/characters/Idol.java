@@ -3,7 +3,7 @@ package characters;
 /**
  * STARCATCH!! - Idol
  * Main class for a girly idol wannabe.
- *  May contain: a lot of unused characteristics
+ *  May contain: a lot of unused characteristics.
  * 
  * @author "Daniel Sánchez" <nisanvera23@gmail.com>
  */
@@ -30,17 +30,17 @@ public class Idol {
     // Characteristics
     private int level;
     // SMART-ASS characteristics
-    private double SMA;
+    private double smart;
     private double sin;
     private double dan;
     private double shp;
     // CHARISMA characteristics
-    private double CHA;
+    private double chari;
     private double lov;
     private double atr;
     private double ero;
     // PURRRITY characteristics
-    private double PUR;
+    private double purit;
     private double aur;
     private double hrt;
     private double spk;
@@ -62,17 +62,17 @@ public class Idol {
     
     public int getLevel () { return this.level; }
     
-    public double getSMA () { return SMA; }
+    public double getSmart () { return smart; }
     public double getSin () { return sin; }
     public double getDan () { return dan; }
     public double getShp () { return shp; }
 
-    public double getCHA () { return CHA; }
+    public double getChari () { return chari; }
     public double getLov () { return lov; }
     public double getAtr () { return atr; }
     public double getEro () { return ero; }
 
-    public double getPUR () { return PUR; }
+    public double getPurit () { return purit; }
     public double getAur () { return aur; }
     public double getHrt () { return hrt; }
     public double getSpk () { return spk; }
@@ -90,17 +90,17 @@ public class Idol {
     
     public void setLevel (int level) { this.level = level; }
 
-    public void setSMA (double SMA) { this.SMA = SMA; }
+    public void setSmart (double smart) { this.smart = smart; }
     public void setSin (double sin) { this.sin = sin; }
     public void setDan (double dan) { this.dan = dan; }
     public void setShp (double shp) { this.shp = shp; }
 
-    public void setCHA (double CHA) { this.CHA = CHA; }
+    public void setChari (double chari) { this.chari = chari; }
     public void setLov (double lov) { this.lov = lov; }
     public void setAtr (double atr) { this.atr = atr; }
     public void setEro (double ero) { this.ero = ero; }
 
-    public void setPUR (double PUR) { this.PUR = PUR; }
+    public void setPurit (double purit) { this.purit = purit; }
     public void setAur (double aur) { this.aur = aur; }
     public void setHrt (double hrt) { this.hrt = hrt; }
     public void setSpk (double spk) { this.spk = spk; }
